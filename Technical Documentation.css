@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:root{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	min-width: 290px;
+	
+}
+
+html{
+	    display: block;
+
+}
+
+body {
+    display: block;
+    margin: 0.5em;
+}
+
+#nav-bar{
+	position: fixed;
+    top: 0;
+	bottom:0;
+    left: 0;
+    width: 18em;
+    height: 100%;
+    border-right: solid;
+	overflow: auto;
+}
+
+nav {
+    display: block;
+}
+
+#nav-bar ul{
+	height: 100%;
+    padding: 0;
+    overflow-x: auto;
+	overflow-y: hidden;
+}
+
+#head{
+	margin: inherit;
+	font-size: 2em;
+	margin-left: 1.2em;
+	margin-top: 0.7em;
+}
+
+#list{
+	list-style: none;
+	display: flex;
+	align-content: flex-start;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+#list-item{
+	border-top: 1px solid;
+	position: relative;
+	padding: 20px 0;
+	padding-left: 40px;
+}
+
+#main-doc{
+	position: absolute;
+  	width: auto;
+    padding: 20px;
+	margin: 20px;
+	line-height: 1.5;
+	margin-left: 310px;
+}
+
+footer{
+	display: flex;
+	align-content: flex-end;
+	margin-top: 3em;
+	overflow: auto;
+}
+
+a,li{
+	text-decoration: none;
+	color: inherit;
+}
+
+img{
+	width: 100%;
+	align-content: center;
+	max-width: 30em;
+
+}
+
+#coffee-belt, #coffee-alt{
+	max-width: 100%;
+
+}
+
+#coffee-bean{
+  	display: flex;
+	justify-content: center;
+  
+}
+
+#bean{
+	max-width: 25em;
+}
